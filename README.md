@@ -103,6 +103,22 @@ Telegram/client support and delivery cadence must be checked with the actual pho
 
 ## Installation
 
+### Install from GitHub with the Hermes CLI
+
+Select the intended Hermes profile first. With Hermes's existing Python/PTB/YAML
+dependencies available, install this public repository without enabling it yet:
+
+```bash
+hermes plugins install web3blind/hermes-live-location --no-enable --no-deps
+```
+
+This is a custom GitHub source, **not an entry in the official Hermes plugin
+catalog**. The CLI's unreviewed-source warning is expected; inspect the source
+before trusting it. Successful installation alone does not configure or enable
+location storage. Continue below with owner/bot settings and activation.
+
+### Manual directory installation
+
 Use a reviewed source checkout and Hermes's Python environment (the environment
 that runs your gateway, not an unrelated system Python). Review the requirements
 above before installing: no minimum public Hermes release has been established;
