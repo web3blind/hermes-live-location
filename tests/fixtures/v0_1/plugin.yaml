@@ -1,0 +1,4 @@
+name: hermes-live-location
+version: 0.1.0
+description: "Quiet profile-local Telegram live location ingestion and current-point CLI"
+author: "Hermes prototype contributors"

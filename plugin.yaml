@@ -1,0 +1,4 @@
+name: hermes-live-location
+version: 0.2.0
+description: "Profile-local Telegram saved places, quiet live updates and location CLI"
+author: "Hermes prototype contributors"
